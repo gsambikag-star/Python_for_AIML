@@ -1,0 +1,43 @@
+1. What is the difference between is and ==?
+    'is'-checks if the two variables are pointing to the same object in the memory
+    '=='-checks if the value of both the variables are equal.
+
+2. what makes python a high level language?
+    python is a hih level language beacuse it allows users to write the code that has:
+    ->easier syntax(just uses english like keywords)
+    ->python has large number of inbuilt functions in order to perform operations like file handling,mathematics,networking,data analysis etc..
+    ->python automatically allocates and free memory using garbage collection(there is no need to manually allocate memory (malloc()) and free memory(free()))
+    ->python code can run on windows,macos etc..
+    ->python code hides implementation
+
+3. is pyhton compiled or interpreted?
+    Python is both compiled and interpreted. 
+    First, the Python interpreter compiles the source code (.py) into bytecode (.pyc). 
+    Then, the Python Virtual Machine (PVM) interprets and executes the bytecode. 
+    It is commonly called an interpreted language because this compilation process happens automatically and is hidden from the programmer.
+
+4. what is PVM?
+    The Python Virtual Machine (PVM) is the runtime component of Python that executes Python bytecode. 
+    After the Python interpreter compiles the source code into bytecode, the PVM reads and executes it instruction by instruction.
+    It acts as an interface between the Python program and the computer's hardware, making Python programs portable across different operating systems.
+
+5. are variables references or boxes?
+    variables are references and not boxes.
+    they are the label that are attached to an object in memeory.
+    insted of storing the actual value they refer to object in memory.
+
+6. name 5 immutable data types?
+    int,str,float,bool,tuple
+    these are called immutable datatypes  because once an object created of these types,its values  cannot be modified.
+    if we do so, python will create new object.
+
+7. name 3 mutable data types
+    list,dict,set 
+
+8. why input() returns a string?
+    The input() function returns a string because it reads text entered by the user from the keyboard.
+    Since keyboard input is received as characters, Python treats it as a string by default.
+
+9. What is the difference between / and //?
+    '/'-division it returns a floatvalue
+    '//'-floor division it returns an integer which rounds up down to the nearest whole number.
